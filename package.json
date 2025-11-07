@@ -1,17 +1,17 @@
 {
-  "name": "@oliveoilexpert/stim",
+  "name": "@amdeu/stim",
   "version": "2.0.2",
   "description": "A modest stimulus knock-off",
   "repository": {
     "type": "git",
-    "url": "git+https://oliveoilexpert@github.com/oliveoilexpert/stim.git"
+    "url": "git+https://amdeu@github.com/amdeu/stim.git"
   },
   "author": "Amadeus Kiener",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oliveoilexpert/stim/issues"
+    "url": "https://github.com/amdeu/stim/issues"
   },
-  "homepage": "https://github.com/oliveoilexpert/stim#readme",
+  "homepage": "https://github.com/amdeu/stim#readme",
   "publishConfig": {
     "access": "public"
   },

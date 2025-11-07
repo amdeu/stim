@@ -48,7 +48,7 @@ Stim follows a simple pattern:
 A controller is a JavaScript class that adds behavior to an HTML element. Let's create a simple dropdown controller:
 
 ```javascript
-import { Controller } from '@oliveoilexpert/stim';
+import { Controller } from '@amdeu/stim';
 
 export default class Dropdown extends Controller {
   // Properties that sync with HTML attributes
@@ -102,7 +102,7 @@ One Element can use multiple controllers:
 Before Stim can use your controllers, you need to register them:
 
 ```javascript
-import { stim } from '@oliveoilexpert/stim';
+import { stim } from '@amdeu/stim';
 import Dropdown from './dropdown';
 
 // Register the dropdown controller
@@ -859,7 +859,7 @@ export default class ComboBox extends Controller {
 Customize Stim's behavior through configuration options:
 
 ```javascript
-import { stim } from '@oliveoilexpert/stim';
+import { stim } from '@amdeu/stim';
 
 // Configure Stim before connecting
 stim.config.attributePrefix = 'data-';

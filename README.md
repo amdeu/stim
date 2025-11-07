@@ -2,8 +2,8 @@
 
 A lightweight, flexible alternative to [Stimulus](https://github.com/hotwired/stimulus) for adding JavaScript behavior to HTML.
 
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/@oliveoilexpert/stim@latest)
-![npm version](https://img.shields.io/npm/v/@oliveoilexpert/stim)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@amdeu/stim@latest)
+![npm version](https://img.shields.io/npm/v/@amdeu/stim)
 
 ## Table of Contents
 
@@ -16,12 +16,12 @@ A lightweight, flexible alternative to [Stimulus](https://github.com/hotwired/st
 ## Quick Start
 
 ```bash
-npm install @oliveoilexpert/stim
+npm install @amdeu/stim
 ```
 
 ```javascript
 // Define a controller
-import { Controller, stim } from '@oliveoilexpert/stim';
+import { Controller, stim } from '@amdeu/stim';
 
 class Dropdown extends Controller {
   static props = {
@@ -101,7 +101,7 @@ Here's a simple dropdown that shows key Stim features:
 
 ```javascript
 // dropdown.js
-import { Controller } from '@oliveoilexpert/stim';
+import { Controller } from '@amdeu/stim';
 
 export default class Dropdown extends Controller {
   // Define properties that sync with HTML attributes
