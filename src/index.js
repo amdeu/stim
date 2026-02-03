@@ -25,7 +25,7 @@ class PropSyncer {
 	}
 	#write(key, val) {
 		if (typeof this.#props[key] == 'string') return val
-		if (typeof this.#props[key] == 'boolean') return val ? '' : 'false'
+		if (typeof this.#props[key] == 'boolean') return (val && val !== '0' && val !== 'false') ? '' : 'false'
 		try { return JSON.stringify(val) } catch { return val }
 	}
 	#read(key, val) {
