@@ -39,7 +39,7 @@ class PropSyncer {
 			if (element.hasAttribute(this.#keys[key])) {
 				this.set(object, element, key, this.#read(key, element.getAttribute(this.#keys[key])), false)
 			} else if (key in attrProps) {
-				this.set(object, element, key, attrProps[key], true)
+				this.set(object, element, key, this.#read(key, attrProps[key]), true)
 			} else {
 				this.set(object, element, key, this.#props[key], false)
 			}
